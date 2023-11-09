@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Oswald';
+}
+
+* {
+    margin: 0;
+}
+
+.d-flex-dir-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-dir-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.bg-orange {
+    background: #e8631c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.bg-grey {
+    background-color: #2b2d2c;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: 0.25rem;
+}
+
+.m-2 {
+    margin: 0.5rem;
+}
+
+.m-3 {
+    margin: 1rem;
+}
+
+.m-4 {
+    margin: 1.5rem;
+}
+
+.m-5 {
+    margin: 2rem;
+}
+
+.m-6 {
+    margin: 6rem;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+.mt-6 {
+    margin-top: 2.5rem;
+}
+
+.mt-7 {
+    margin-top: 6rem;
+}
+
+.txt-align-ctr {
+    text-align: center;
+}
+
+.txt-clr {
+    color: #fff;
+}
+
+.txt-trnsfrm-cap {
+    text-transform: capitalize;
+}
+
+.txt-trnsfrm-uppercase {
+    text-transform: uppercase;
+}
+
+.font-fml-mont-2 {
+    font-family: Montserrat;
+}
+
+.font-fml-oswl-1 {
+    font-family: 'Oswald';
+}
+
+.font-size {
+    font-size: 2.5rem;
+}
+
+.font-size-1 {
+    font-size: 4rem;
+}
+
+.font-size-2 {
+    font-size: 1.8rem;
+}
+
+.font-size-3 {
+    font-size: 1.5rem !IMPORTANT;
+}
+
+.font-w {
+    font-weight: 800;
+}
+
+.font-w2 {
+    font-weight: 0;
+}
+
+.first-block {
+    background-image: url('./images/background1.jpg');
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+    height: 90px;
+}
+
+.topnav .nav-action {
+    font-size: 22px;
+    padding: 0 28px;
+    text-decoration: none;
+}
+
+.topnav .nav-logo {
+    height: 54px;
+}
+
+.fa-search {
+    font-size: 26px;
+}
+
+.title-area {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.title-wrapper {
+    margin-left: 5rem;
+}
+
+.title-text {
+    font-size: 5rem;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.comman-pra {
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.btn {
+    width: fit-content;
+    padding: 0.7rem 4rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.sec-title {
+    font-size: 3.5rem;
+    text-decoration: none;
+    letter-spacing: 0;
+    margin-top: 4.5rem;
+}
+
+.sec-para {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+.row {
+    margin: 0px 6rem;
+}
+
+.card {
+    box-shadow: 8px;
+    transition: 0.3s;
+    width: 20rem;
+    height: 30rem;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 0.2rem;
+}
+
+.card-pra {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: auto;
+    width: 75%;
+    letter-spacing: 1px;
+}
+
+.pricing-card {
+    box-shadow: 8px;
+    transition: 0.3s;
+    width: 30%;
+    height: 25rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+}
+
+.price-card-content {
+    height: 100%;
+}
+
+.price-card-content .price-card-img {
+    width: auto;
+    height: auto;
+}
+
+.price-card-deatail {
+    padding: 3rem;
+}
+
+.price-card-title {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 0.5cm;
+}
+
+.price-card-pra {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.price-btn {
+    padding: 0.8rem 5rem;
+    border: none;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.2rem;
+    width: 16rem;
+}
+
+.upercase {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.m-25 {
+    margin: 15px 0px 60px 0px;
+}
+
+.stat-details {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.six-block {
+    height: 50rem;
+}
+
+.seven-block {
+    background-image: url('./images/dance-bg1.jpg');
+    height: 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 2000px 0 0 0 rgba(241, 89, 8, 0.65);
+}
+
+.lettr-spce {
+    letter-spacing: 2px;
+}
+
+#email {
+    padding: 1.2rem 1rem;
+    width: 40%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border: none;
+}
+
+#email:focus-visible {
+    outline: none;
+}
+
+.mb-1 {
+    margin-bottom: 7rem;
+}
+
+.br {
+    border-radius: 0 0.2rem 0.2rem 0;
+}
+
+.social-icon {
+    font-size: 28px;
+    background-color: #fff;
+    color: #2b2d2c;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8rem;
+}
+
+#search-bar{
+    display: none;
+}
